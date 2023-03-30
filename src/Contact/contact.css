@@ -1,0 +1,13 @@
+#contact {
+    background-color: #d39a9a;
+    padding: 22.5%;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-top: 0;
+  }
+  
+  #contact ul{
+    color: #000;
+  }
