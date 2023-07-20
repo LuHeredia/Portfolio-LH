@@ -1,0 +1,52 @@
+.Cintas-Container {
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+.Cintas {
+  position: absolute;
+  width: 100%;
+  margin-top: -5%;
+}
+
+.Cinta1 {
+  height: 100px;
+  transform: rotate(-4deg);
+  transform-origin: top;
+  background-color: #88f8f154;
+}
+
+.Cinta2 {
+  height: 100px;
+  background-color: #66fcf1;
+  transform: rotate(3deg);
+  transform-origin: bottom;
+}
+.Cintas p {
+    white-space: nowrap;
+  position: absolute;
+  text-align: center;
+  margin-top: -30px;
+  font-size: 300%;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+    .Cintas{
+        margin-top: -55%;
+    }
+    .Cinta1{
+        height: 50px;
+    }
+    .Cinta2{
+        height: 50px;
+    }
+    .Cintas p{
+        white-space: nowrap;
+        font-size: 130%;
+        margin-top: -2px;
+    }
+}

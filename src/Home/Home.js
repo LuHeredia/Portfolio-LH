@@ -1,22 +1,31 @@
-import React from 'react';
-import './home.css'
+import React from "react";
+import "./home.css";
+import dalle from "../Imagenes/dalle.png";
 
 function Home() {
   return (
-    <section id="home">
-      <div>
+    <div id="home">
+      <div className="container">
+        <h2>Front End Developer</h2>
+
+        <div className="h1s">
+          <div>
             <h1>Luciana</h1>
-      </div>
-      <div>
+          </div>
+          <div>
             <h1>Heredia</h1>
-      </div>
-          <section className="front">
-            <h2>Front End Developer</h2>
-          </section>
+          </div>
+          <img src={dalle} alt="dalle" className="dalle" />
+        </div>
+        <div className="fp">
           <section className="parrafo">
-            <p>"Transformando ideas en interfaces atractivas y funcionales, con pasión por el diseño y la programación."</p>
-          </section>    
+            <p>
+              "Transformando ideas en interfaces atractivas y funcionales."
+            </p>
           </section>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,49 @@
+#skills {
+  height: 70em;
+  margin-top: -10%;
+  background-color: #000000;
+}
+.skill {
+  color: #ccc;
+  width: 350px;
+  border: 6px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8%;
+  margin-left: 5%;
+  padding: 1.5%;
+  display: inline-block; /* Alinear las tarjetas en línea */
+}
+.skill:hover{
+    border: 6px solid #66FCF1;
+}
+.skills-container {
+  margin-left: 19%;
+}
+
+.skill-title {
+  font-size: 200%;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: -6%;
+}
+.skill-text{
+  text-align: left;
+}
+.material-icons{
+    color: #66FCF1;
+    margin-left: 27%;
+   font-size: 8rem;
+}
+@media (max-width: 768px){
+    #skills{
+        height: 150em;
+    }
+    .skills-container {
+        margin-left: 10%;
+      }
+      .skill{
+        width: 250px;
+      }
+}
